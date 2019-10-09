@@ -1,0 +1,117 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Aethertwin",
+				"abbreviation": "AET",
+				"full": "Aether Twin",
+				"authors": [
+					"Yes"
+				],
+				"version": "1.0",
+				"url": "https://homebrewery.naturalcrit.com/share/H1os93pOE",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 1537874753
+	},
+	"subclass": [
+		{
+			"class": "Fighter",
+			"name": "Aether Twin",
+			"subclassFeatures": [
+				[
+					{
+						"name": "Aether Twin",
+						"entries": [
+							"The Aether twin is a fighter who never fights alone. They are rare breed of magic user use who have given up their ability to cast spells in order to be able to summon a spectral copy of themselves in order to control the battlefield and keep their back covered at all times.",
+							{
+								"type": "entries",
+								"name": "Arcane Splinter",
+								"entries": [
+									"At 3rd level, when you choose this archetype, you gain the ability to summon an arcane splinter. This splinter is an ethereal copy of yourself that looks and sounds like you, but is easily distinguished from you if you are present."
+  "Whenever you finish a long rest, you may summon your splinter. While summoned it has a limited well of stability called bindings that represent its ability to stay corporeal. When you summon your splinter it gains a number of bindings equal to your wisdom modifier + half your fighter level. Whenever you have your splinter use an action or take a reaction, you reduce the number of bindings by one. Once all bindings are used, the splinter disapears and canont be resummoned until your finish a long rest."
+"Your splinter acts on your turn. You may use your bonus action to have it move up to 30ft and take an action. However, a splinter also has a reaction, but it cannot use both its action and reaction in the same round of combat. It also cannot move more than 60ft away from your in any direction, and is moved with you if you would move more than 60ft away from it."
+"The splinter also has an AC equal to 8 + your wisdom modifier + your proficieny modifier. If it is hit with an attack it loses one binding. or two if it takes 25 or more damage in one attack. It is not effected by spells."
+"A list of actions and reactions that can be taken by your splinter is available at the end of this archetypes description."
+"Attack: You may use your splinters action to makes a single melee attack, or its reaction to make an oppurutinty attack. It copies the weapon you are using and its properties, such as reach, but does not copy magical bonuses or abilities nor does it do the same damage. All attacks made by a splinter deal 1d6+ your wisdom modifier force damage. The splinter uses your attack bonus on attack rolls, and the damage die increased to 1d8 at 10th level, and 1d10 at 15th.
+"Combat Actions: You may have your splinter use the Dash, Help, Hide, and Ready actions"
+"Distract You may spend you splinters action to give you or an ally adjacent to splinter the benefits of the Disengage action agasint one creature, till the end of their next turn."
+"Riposte: If a creature misses a melee attack against you or an ally while within 15ft of your splinter, you may use your splinters reaction to move it up to 15ft and make a single melee attack agasint the creature that attacked."
+"Intercept: If you are an ally are the hit with an attack, and are within 15ft of your splinter, you may use your splinter's reaction to move it adjacent to you or the ally and give them a +3 bonus to AC agasint that attack."
+
+								]
+							},
+							{
+								"type": "entries",
+								"name": "In your own head",
+								"entries": [
+									"At 3rd level, you may see and hear through your splinter. While you are doing so, your original body is blind and deaf. You may also speak through your splinter as well."
+                  "Additionanlly, you gain advantage on wisdom(percetption) and intelligence(investigation) checks if both you and your splinter are within 10ft of eachother and looking at or for the same thing."
+								]
+							}
+						]
+					}
+				],
+				[
+					{
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Back to your back",
+								"entries": [
+									"At 7th level, you have learned to fight alongside yourself. Whenever you use your action surge ability, you may teleport your splinter to a square adjacent to you. Until the end of your next turn, you and your splinter have advantage on all attack rolls; and enemies have disadvantage on attacks made agasint you so long as your splinter is adjacent to you."
+                  ]
+							}
+						]
+					}
+				],
+				[
+					{
+						"entries": [
+							{
+								"type": "entries",
+								"name": "All but a Mirror",
+								"entries": [
+									"At 10th level, you've learned to maneaver your splinter without much effort. Your splinter may now use both its action and reaction in a round, and it also copies your chosen fighting stlye."
+                  "Additionally, you may choose to sacrifice any number of attacks from your own attack action and give them to your splinter's attack action. No matter how many attacks you give it however, it still ony costs one binding when it takes the attack action."
+							      ]
+									}
+								]
+							}
+						]
+					}
+				],
+				[
+					{
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Self to Self",
+								"entries": [
+									"At 15th level, you may spend a bonus action to switch places with one of your splinters via a quick teleportation. You may do this up to three times before you must finish a short or long rest."
+								]
+							}
+						]
+					}
+				],
+				[
+					{
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Triplets",
+								"entries": [
+									"At 18th level, your skill at using and summoning your splinter is so efficient that you now summon two splinters instead of one. Both splinters act when you use your bonus action to command them, and both share the same amount of bindings. Whenever you spend a binding to have one perform an action, both may perform the same action without exending any more bindings."
+                  "Both splinters have their own seperate reactions that you can use, but each reaction used still cost one binding each."
+                ]
+							}
+						]
+					}
+				]
+			],
+			"source": "Dragoon",
+			"shortName": "Dragoon"
+		}
+	]
+}
